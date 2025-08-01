@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Training outputs
+training-runs/
+out/
+outputs/
+results/
+logs/
+*.log
+
+# Model files
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Dataset files
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.npy
+*.npz
+
+# Cache
+.cache/
+$HOME/.cache/
+*.cache
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Raw snapshots
+raw-snapshots/
+
+# Text embeddings (can be large)
+text_embeddings/
+*_embeddings.npy
+embeddings/
+
+# Captions
+captions.json
+captions/
+
+# Metrics
+dataset-refs/
+*.stats
+metrics/
+
+# Docker
+.dockerignore
+
+# System
+.DS_Store
+Thumbs.db
+
+# Checkpoint files
+checkpoint-*/
+training-state-*.pt
+network-snapshot-*.pkl
+
+# Generated images
+generated/
+samples/
+*.png
+*.jpg
+*.jpeg
+
+# Exclude test outputs but keep docs
+!docs/*.jpg
+!docs/*.png
